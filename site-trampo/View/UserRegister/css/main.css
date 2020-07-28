@@ -1,0 +1,339 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+* {
+  font-family: 'Montserrat';
+}
+
+body {
+  margin: 0;
+  position: relative;
+  min-height: 650px;
+}
+
+img.top-desktop-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
+  z-index: -1;
+}
+
+img.top-mobile-background {
+  display: none;
+}
+
+header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 0em 1.5em;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+@media screen and (max-width: 412px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+header a {
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+}
+
+header a h2 {
+  color: #514bff;
+  font-size: 1.7em;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+main {
+  min-height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2em 0;
+}
+
+main .wrapper {
+  position: relative;
+  width: 70%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  border-radius: 0.5em;
+}
+
+main .wrapper h1 {
+  font-family: 'Montserrat';
+  text-align: center;
+  background: #003bfb;
+  color: #fff;
+  padding: 0.4em;
+  font-size: 2.3em;
+  font-weight: 600;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  margin: 0;
+}
+
+main .wrapper .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5em 0;
+}
+
+main .wrapper .steps .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: default;
+}
+
+main .wrapper .steps .step .step-number {
+  background: #dbdbdb;
+  width: 2em;
+  height: 2em;
+  padding: 0.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.7em;
+}
+
+main .wrapper .steps .step .description {
+  width: 7em;
+  text-align: center;
+  font-size: 1em;
+  position: absolute;
+  margin-top: 5em;
+}
+
+main .wrapper .steps .line-step {
+  width: 15%;
+  height: 3px;
+  background: #dbdbdb;
+}
+
+main form {
+  position: relative;
+  max-width: 720px;
+  margin: 5em auto 2em;
+}
+
+main form div.form-step {
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+main form div.form-step input,
+main form div.form-step label {
+  font-size: 1.2em;
+}
+
+main form div.form-step h3 {
+  margin: auto;
+  margin-bottom: 1em;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+  font-family: 'Montserrat';
+}
+
+main form div.form-step p {
+  width: 100%;
+  text-align: center;
+  max-width: 500px;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin: 2em auto;
+}
+
+main form div.form-step .form-birthday label {
+  margin-right: 0.1em;
+}
+
+main form div.form-step .form-birthday .mdl-textfield {
+  width: 170px;
+}
+
+main .mdl-cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-column-gap: 0.5em;
+}
+
+@media screen and (max-width: 900px) {
+  main .mdl-cell {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.submit-button {
+  position: absolute;
+  padding: 1.5em;
+  right: 0;
+}
+
+.back-button {
+  visibility: hidden;
+}
+
+img.desktop-bottom-background {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+.step-number.active {
+  background: #003bfb;
+}
+
+@media screen and (max-width: 1150px) {
+  .normal-logo {
+    display: none;
+  }
+  .top-desktop-background {
+    display: none;
+  }
+  .step .description {
+    margin-top: 5.8em !important;
+    font-size: 0.9em !important;
+  }
+  .desktop-bottom-background {
+    position: relative !important;
+    bottom: 0 !important;
+  }
+  header {
+    padding-left: 1em !important;
+  }
+  header h2 {
+    color: #fff !important;
+    font-size: 2em !important;
+  }
+  .wrapper,
+  main {
+    padding: 0;
+  }
+  .wrapper {
+    position: relative !important;
+    width: 100% !important;
+    background: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    margin-top: 4em !important;
+  }
+  .wrapper .form-birthday input,
+  .wrapper .form-birthday label {
+    text-align: center;
+  }
+  main {
+    padding-top: 3em;
+  }
+  main h1 {
+    color: #003bfb !important;
+    background: none !important;
+  }
+  .top-mobile-background {
+    display: block !important;
+    position: absolute;
+    z-index: -1;
+    max-width: 410px;
+    max-height: 120px;
+    width: 100%;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .mdl-checkbox {
+    margin-bottom: 2em;
+  }
+  .desktop-bottom-background {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .white-logo {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

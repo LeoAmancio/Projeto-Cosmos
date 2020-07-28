@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="32" viewBox="0 0 35 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="35" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="navbar-icon" class="cls-2">
+    <g transform="translate(-272 -37)">
+      <rect id="Retângulo_20" data-name="Retângulo 20" class="cls-3" width="35" height="4" rx="2" transform="translate(272 37)"/>
+    </g>
+    <g transform="translate(-272 -26)">
+      <rect id="Retângulo_20-2" data-name="Retângulo 20" class="cls-3" width="35" height="4" rx="2" transform="translate(272 37)"/>
+    </g>
+    <g transform="translate(-272 -15)">
+      <rect id="Retângulo_20-3" data-name="Retângulo 20" class="cls-3" width="35" height="4" rx="2" transform="translate(272 37)"/>
+    </g>
+  </g>
+</svg>

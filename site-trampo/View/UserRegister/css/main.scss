@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+    position: relative;
+    min-height: 650px;
+}
+
+img.top-desktop-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    z-index: -1;
+}
+
+img.top-mobile-background {
+    display: none;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0em 1.5em;
+    position: absolute;
+    z-index: 1;
+    @media screen and (max-width: 412px) {
+        display: flex;
+        justify-content: center;
+    }
+    top: 0;
+    a {
+        text-decoration: none;
+        width: fit-content;
+        display: block;
+        h2 {
+            color: #514bff;
+            font-size: 1.7em;
+            margin: 0;
+            font-family: 'Montserrat';
+            font-weight: 700;
+        }
+    }
+}
+
+main {
+    min-height: 100vh;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2em 0;
+    .wrapper {
+        position: relative;
+        width: 70%;
+        background: #fff;
+        box-shadow: 0 0 8px rgba($color: #000000, $alpha: 0.3);
+        margin: auto;
+        border-radius: 0.5em;
+        h1 {
+            font-family: 'Montserrat';
+            text-align: center;
+            background: #003bfb;
+            color: #fff;
+            padding: 0.4em;
+            font-size: 2.3em;
+            font-weight: 600;
+            border-top-right-radius: 0.5rem;
+            border-top-left-radius: 0.5rem;
+            margin: 0;
+        }
+        .steps {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1.5em 0;
+            .step {
+                display: flex;
+                justify-content: center;
+                width: fit-content;
+                flex-wrap: wrap;
+                cursor: default;
+                .step-number {
+                    background: rgb(219, 219, 219);
+                    width: 2em;
+                    height: 2em;
+                    padding: 0.4em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    color: #fff;
+                    font-size: 1.7em;
+                }
+                .description {
+                    width: 7em;
+                    text-align: center;
+                    font-size: 1em;
+                    position: absolute;
+                    margin-top: 5em;
+                }
+            }
+            .line-step {
+                width: 15%;
+                height: 3px;
+                background: rgb(219, 219, 219);
+            }
+        }
+    }
+    form {
+        position: relative;
+        max-width: 720px;
+        margin: 5em auto 2em;
+        div.form-step {
+            display: none;
+            box-sizing: border-box;
+            justify-content: space-between;
+            width: 100%;
+            input,
+            label {
+                font-size: 1.2em;
+            }
+            h3 {
+                margin: auto;
+                margin-bottom: 1em;
+                font-size: 1.8em;
+                text-align: center;
+                font-weight: 600;
+                width: 100%;
+                font-family: 'Montserrat';
+            }
+            p {
+                width: 100%;
+                text-align: center;
+                max-width: 500px;
+                font-size: 1.3em;
+                line-height: 1.2em;
+                margin: 2em auto;
+            }
+            .form-birthday {
+                label {
+                    margin-right: 0.1em;
+                }
+                .mdl-textfield {
+                    width: 170px;
+                }
+            }
+        }
+    }
+    .mdl-cell {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-column-gap: 0.5em;
+    }
+    @media screen and (max-width: 900px) {
+        .mdl-cell {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}
+
+.submit-button {
+    position: absolute;
+    padding: 1.5em;
+    right: 0;
+}
+
+.back-button {
+    visibility: hidden;
+}
+
+img.desktop-bottom-background {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.step-number.active {
+    background: #003bfb;
+}
+
+@media screen and(max-width: 1150px) {
+    .normal-logo {
+        display: none;
+    }
+
+    .top-desktop-background {
+        display: none;
+    }
+    .step {
+        .description {
+            margin-top: 5.8em !important;
+            font-size: 0.9em !important;
+        }
+    }
+    .desktop-bottom-background {
+        position: relative !important;
+        bottom: 0 !important;
+    }
+    header {
+        padding-left: 1em !important;
+        h2 {
+            color: #fff !important;
+            font-size: 2em !important;
+        }
+    }
+    .wrapper,
+    main {
+        padding: 0;
+    }
+    .wrapper {
+        position: relative !important;
+        width: 100% !important;
+        background: none !important;
+        box-shadow: none !important;
+        margin-top: 4em !important;
+        .form-birthday {
+            input,
+            label {
+                text-align: center;
+            }
+        }
+    }
+    main {
+        padding-top: 3em;
+        h1 {
+            color: #003bfb !important;
+            background: none !important;
+        }
+    }
+    .top-mobile-background {
+        display: block !important;
+        position: absolute;
+        z-index: -1;
+        max-width: 410px;
+        max-height: 120px;
+        width: 100%;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .mdl-checkbox {
+        margin-bottom: 2em;
+    }
+    .desktop-bottom-background {
+        display: none;
+    }
+}
+
+@media screen and(min-width: 1150px) {
+    .white-logo {
+        display: none;
+    }
+}

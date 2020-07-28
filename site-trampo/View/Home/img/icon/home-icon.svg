@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.597" height="49.56" viewBox="0 0 55.597 49.56">
+  <g id="home-icon" transform="translate(0)">
+    <g id="Grupo_3" data-name="Grupo 3" transform="translate(0 0)">
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(0 0)">
+        <path id="Caminho_4" data-name="Caminho 4" d="M55.005,47.372l-26.354-19.3a1.444,1.444,0,0,0-1.707,0L.591,47.372A1.445,1.445,0,0,0,2.3,49.7L27.8,31.032,53.3,49.7a1.445,1.445,0,0,0,1.707-2.331Z" transform="translate(0.001 -27.798)"/>
+      </g>
+    </g>
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(6.13 22.233)">
+      <g id="Grupo_4" data-name="Grupo 4">
+        <path id="Caminho_5" data-name="Caminho 5" d="M98.344,232.543a1.445,1.445,0,0,0-1.445,1.445v22.993H85.344V244.43a7.223,7.223,0,0,0-14.446,0v12.551H59.341V233.988a1.445,1.445,0,1,0-2.889,0v24.438A1.445,1.445,0,0,0,57.9,259.87H72.342a1.444,1.444,0,0,0,1.439-1.332,1.089,1.089,0,0,0,.006-.113v-14a4.334,4.334,0,1,1,8.668,0v14a1.059,1.059,0,0,0,.006.111A1.444,1.444,0,0,0,83.9,259.87H98.345a1.445,1.445,0,0,0,1.445-1.445V233.988A1.445,1.445,0,0,0,98.344,232.543Z" transform="translate(-56.452 -232.543)"/>
+      </g>
+    </g>
+  </g>
+</svg>

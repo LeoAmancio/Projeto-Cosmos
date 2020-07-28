@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="42" viewBox="0 0 220 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="220" height="42"/>
+    </clipPath>
+    <image id="image" width="36" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABNVBMVEVHcEz//wD/yij/ySn/yij/yyj/2yT/yij/yyn/yij/yij/yCj/yyf/yCf/yij/ySj/zDP/1Sv/yij/xSP/yij/yiv/ySj/xhz/yij/yyf/yij/yin//wD/yij/yij/qgD/yij/yij/1Sv/yij/ySf/ySj/ySj/yyb/yij/yyn/yij/yij/ySf/yin/yij/yyf/wy3/ySj/ySj/yif/v0D/zCL/yyn/yif/yij/yyb/yij/yir/yij/ySn/yin/yij/yij/yif/zCj/yij/yij/yij/yij/yCz/ySj/ySf/vyD/yij/yCv/yyf/ySb/yyn/xyX/yyr/yin/yyj/yib/yij/yij/yyf/yij/yij/zin/ySn/yCn/yyj/yij/yij/ySf/yij/xCf/xib/zCr/yyj/yigkXq4TAAAAZnRSTlMAAYZ3/WYH/qqZpzOILt+mBQbjFu0whQn7O2CpAvCyA7GzDJGijjk23tas1bWDh68Rq/OVBA9EXMQi6CuLsJb3n1st7K7XuBcTVQitKpwvLCkxtrQ1t/li+LofYyW5/PYh+g0bN431K2GmAAABZUlEQVRIx92WV3uCMBSGRUZAcFvratVqrd17D7v33nv3/P+fUKgIWnIw3PrdJXlfeJKcBHy+zk2l4lG4ufTGqwQGPAlXAEUv/AUBgGsPQkHnYZWd7zJeAERlFrbhL0es/LJQF0iQUZDBTJaNPxYagrDJJATASpiFPxdsQThzZ+PpTFIOQVNCcjKTjjvJCfWAVxZ6AEltWNbEuUUL9yeAKQm/KUi9bMJud+MV0XEWfuTQnkNkqD1flJpnnS+347OR1nXKr7vz4Zn/K8tNu/EnOedecCWcV3K0feb6MX6NQ0pjlM6vMBWqnYBL9U3SBNlF2KEJgzgvpWhCSsKvF/qkT1Fhni5soMIYXfCjAnIuCqhQtZiYKMasRhXj+4hJbPH62YqKS2aTfCLCd318Sps1H8Cb1wL2bXkyBm+VPbtnX3sz+u4QQa/Wj/J7a99X6R7gBxEeiPzs7H1UXl8QQUGu96DSYf8Uv82wEyxLP/faAAAAAElFTkSuQmCC"/>
+  </defs>
+  <g id="five-stars-icon" class="cls-2">
+    <g transform="translate(-269 -450)">
+      <use id="icons8-star-filled-48" transform="translate(269 450)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(-224 -450)">
+      <use id="icons8-star-filled-48-2" data-name="icons8-star-filled-48" transform="translate(269 450)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(-179 -450)">
+      <use id="icons8-star-filled-48-3" data-name="icons8-star-filled-48" transform="translate(269 450)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(-134 -450)">
+      <use id="icons8-star-filled-48-4" data-name="icons8-star-filled-48" transform="translate(269 450)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(-89 -450)">
+      <use id="icons8-star-filled-48-5" data-name="icons8-star-filled-48" transform="translate(269 450)" xlink:href="#image"/>
+    </g>
+  </g>
+</svg>
