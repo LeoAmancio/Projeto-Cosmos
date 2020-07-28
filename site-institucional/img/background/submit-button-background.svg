@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="247.976" height="48.127" viewBox="0 0 247.976 48.127">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="2.31" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff00d5"/>
+      <stop offset="1" stop-color="#2e778f"/>
+    </linearGradient>
+  </defs>
+  <rect id="submit-button-background" class="cls-1" width="247.976" height="48.127" rx="6"/>
+</svg>

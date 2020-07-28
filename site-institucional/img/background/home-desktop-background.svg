@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817.021" height="645.706" viewBox="0 0 817.021 645.706">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.563" y1="-0.046" x2="0.603" y2="1.023" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff00d5"/>
+      <stop offset="0.447" stop-color="#d200b0"/>
+      <stop offset="1" stop-color="#2e778f"/>
+    </linearGradient>
+  </defs>
+  <path id="home-desktop-background" class="cls-1" d="M633.543,0s6.56,125.384,101.129,186.748S897.9,287.3,881.01,396.481s-267.863,58.02-267.863,120.6,151.548,92.1,398.512,118.658c208.618,22.433,418.51,0,418.51,0V0Z" transform="translate(-613.147)"/>
+</svg>

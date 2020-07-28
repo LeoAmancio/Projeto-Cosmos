@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" href="img/icon/logo-cosmos.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <title>Cosmos</title>
+</head>
+
+<body>
+    <img src="img/background/header-background.svg" alt="background" class="header-background hide-desktop">
+    <img src="img/background/home-desktop-background.svg" alt="background" class="home-desktop-background hide-mobile hide-tablet">
+
+    <!-- home -->
+    <section class="home" id="homeSection">
+        <header class="header">
+            <a href="#homeSection"><img src="img/logo/cosmos-logo-black.png" width="130" alt="logo cosmos black" draggable="false" id="header-logoCosmos"></a>
+            <img src="img/icon/navbar-icon.svg" alt="navbar icon" draggable="false" class="navbar-icon hide-desktop" onclick="toggleNav()">
+            <nav>
+                <a href="javascript:void(0)" onclick="toggleNav()">&times;</a>
+                <a href="#homeSection">Home</a>
+                <a href="#aboutSection">Sobre</a>
+                <a href="#portfolioSection">Porfólio</a>
+                <a href="#teamSection">Equipe</a>
+                <a href="#contactSection">Contato</a>
+            </nav>
+        </header>
+        <div class="introduction">
+            <img src="img/ilustration/mobile-ilustration1.svg" alt="ilustration mobile devices and a girl" class="ilustration1 hide-desktop">
+            <h1>Um infinito de possibilidades, digitais</h1>
+            <p>Desenvolvimento de sistemas, sites e aplicativos, da melhor maneira possível.</p>
+            <a href="#contactSection">Contate-nos</a>
+            <img src="img/ilustration/home-desktop-ilustration.svg" alt="ilustration" class="home-desktop-ilustration hide-mobile hide-tablet">
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="aboutSection">
+        <h1>Sobre nós</h1>
+        <h3>Contando um pouco sobre a gente</h3>
+        <div class="about-content">
+
+            <img src="img/ilustration/mobile-ilustration2.svg" alt="ilustration" class="ilustration2" draggable="false">
+            <p>Somos uma empresa brasileira de Software especializada no desenvolvimento de soluções criativas que atendam às necessidades da sociedade. Com o intuito de promover melhores condições, por meio de plataformas digitais acessíveis para todos.
+            </p>
+            <ul>
+                <span></span>
+                <li><strong>Missão</strong> - Impulsionar o progresso da sociedade através de conexões significativas entre pessoas e tecnologias. </li>
+                <span></span>
+                <li><strong>Visão</strong> - Ser a equipe referência em soluções digitais de alto impacto organizacional do Brasil, por meio de aplicações com os mais altos padrões de qualidade. </li>
+                <span></span>
+                <li><strong>Valores</strong> - Dedicação, comprometimento, honestidade e obrigação de propôr satisfação aos nossos clientes.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolioSection">
+        <h1>Porfólio</h1>
+        <h3>Alguns de nossos recentes trabalhos</h3>
+        <div class="swiper-container hide-desktop">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/logo/trampo.png" alt="trampo logo">
+                    <span onclick="toggleModal(1)">Ver mais</span>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/logo/up.png" alt="logo up">
+                    <span onclick="toggleModal(2)">Ver mais</span>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/logo/brainlabz.png" alt="brainlabz logo">
+                    <span onclick="toggleModal(3)">Ver mais</span>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev hide-mobile hide-desktop"></div>
+            <div class="swiper-button-next hide-mobile hide-desktop"></div>
+        </div>
+        <img src="img/background/portfolio-desktop-background.svg" alt="background" class="portfolio-desktop-background hide-tablet hide-mobile">
+        <div class="portfolio-content hide-mobile hide-tablet">
+            <div class="project">
+                <img src="img/logo/trampo.png" alt="trampo logo">
+                <span onclick="toggleModal(1)">Ver mais</span>
+            </div>
+            <div class="project">
+                <img src="img/logo/up.png" alt="up logo">
+                <span onclick="toggleModal(2)">Ver mais</span>
+            </div>
+            <div class="project">
+                <img src="img/logo/brainlabz.png" alt="brainlabz logo">
+                <span onclick="toggleModal(3)">Ver mais</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- team -->
+    <section class="team" id="teamSection">
+
+        <h1>Equipe</h1>
+        <h3>Nosso time</h3>
+        <div class="profiles">
+            <div class="profile">
+                <img src="img/team/alexia.png" alt="team member Alexia">
+                <h2>Alexia Pereira</h2>
+                <h4>Designer</h4>
+            </div>
+            <div class="profile">
+                <img src="img/team/bruno.png" alt="team member Bruno">
+                <h2>Bruno Silva</h2>
+                <h4>Analista</h4>
+            </div>
+            <div class="profile">
+                <img src="img/team/felipe.png" alt="team member Felipe">
+                <h2>Felipe Pires</h2>
+                <h4>Programador</h4>
+            </div>
+            <div class="profile">
+                <img src="img/team/leonardo.png" alt="team member Leonardo">
+                <h2>Leonardo Silva</h2>
+                <h4>Diretor</h4>
+            </div>
+            <div class="profile">
+                <img src="img/team/lincoln.png" alt="team member lincoln">
+                <h2>Lincoln Thomas</h2>
+                <h4>Programador</h4>
+            </div>
+            <div class="profile">
+                <img src="img/team/luiz.png" alt="team member Luiz">
+                <h2>Luiz Couto</h2>
+                <h4>DBA</h4>
+            </div>
+            <div class="profile">
+                <img src="img/team/roberty.png" alt="team member Roberty">
+                <h2>Roberty Santos</h2>
+                <h4>Analista</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- get in touch -->
+    <section class="contact" id="contactSection">
+        <h1>Entrar em contato</h1>
+        <img src="img/background/contact-background.svg" alt="contact background" class="contact-background">
+        <form action="">
+            <input type="text" placeholder="Nome Completo*" required>
+            <input type="email" placeholder="E-mail*" required>
+            <input type="tel" placeholder="Número do celular*" required>
+            <textarea name="message" id="" placeholder="Mensagem*" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <img src="img/logo/cosmos-logo-white.png" alt="cosmos logo" width="120">
+        <p>Rua Felicaino Mendonça, 345 - São Paulo -Sp</p>
+        <a href="#">Termos de serviço</a>
+        <a href="#">Política de privacide</a>
+    </footer>
+
+
+    <div class="modal m1">
+        <div class="modal-content">
+            <span onclick="toggleModal(1)">&times;</span>
+            <img src="img/logo/trampo.png" alt="logo trampo">
+            <h1>Trampo</h1>
+            <p>O Trampo é uma plataforma online que tem como objetivo a conexão entre os trabalhadores informais a clientes em potenciais, gerando assim uma maior produtividade e economia para ambos os lados, sendo esta uma melhora de tempo evitando horas
+                gastas procurando seja por um prestador ou tentando destacar-se para atrair mais clientes. </p>
+        </div>
+    </div>
+
+    <div class="modal m2">
+        <div class="modal-content">
+            <span onclick="toggleModal(2)">&times;</span>
+            <img src="img/logo/up.png" alt="logo up">
+            <h1>Up</h1>
+            <p>O UP é um carrinho robô seguidor de linha, criado em 2018 por integrantes da equipe Cosmos, sendo este especificamente: Bruno Silva, Alexia Pereira e Roberty Santos. O UP já participou de diversas competioções, conquistando até o então 2 medalhas,
+                sendo esta uma de prata e outra de bronze, nas competições de Campeonato de robótica Etapa Itu e Etapa Guaianazes, respectivamente.</p>
+        </div>
+    </div>
+
+    <div class="modal m3">
+        <div class="modal-content">
+            <span onclick="toggleModal(3)">&times;</span>
+            <img src="img/logo/brainlabz.png" alt="brainlabz logo">
+            <h1>BrainLabz</h1>
+            <p>O BrainLabz é um recente projeto criado em 2019 pela dupla Alexia Pereira e Bruno Silva no componente curricular de Desenvolvimento de Sistemas da grade curricular do curso técnico em informática providenciado gratuitamente pela Etec de Guaianazes</p>
+        </div>
+    </div>
+
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
